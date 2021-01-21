@@ -359,10 +359,11 @@ footer {
   padding: 0;
 }
 footer h2{
-  padding-left: 375px;
+  margin-left: 370px;
   margin-bottom:15px;
-
 }
+
+
 .from{
   display: inline-block;
   width: 20rem;
