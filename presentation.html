@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="queries.css">
+    <link rel="stylesheet" type="text/css" href="ionicons.min.css">
+	<script src="script.js"></script>
+	<title>Pet Adopt</title>
+</head>
+
+
+<body>
+
+  <!--HEADER-->	
+
+<!--SECTION MENU + LOGO-->
+	<header>
+			
+		<nav>
+            <figure>
+				<a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+			</figure>
+			<div class="barre-menu">
+				<ul class="menu">
+					<li><a href="#"><div><img src="img/icons8-animaux-domestiques-100.png" alt="icone compagnon" class="img-a"></div><br>Votre Futur Compagnon</a></li>
+					<li><a href="#"><div><img src="img/icons8-coeur-de-chien-256.png" alt="icone chien" class="img-b"></div><br>Nos Valeurs</a></li>
+					<li><a href="presentation.html"><div><img src="img/icons8-conférence-téléphonique-100.png" alt="icone personnes" class="img-c"></div><br>A propos de Nous</a></li>
+					<li><a href="#"><div><img src="img/icons8-envoyer-une-lettre-100.png" alt="icone contact" class="img-d"></div><br>Nous Contacter</a></li>						
+				</ul>
+			</div>
+		</nav>
+	
+<!--SECTION HERO-->
+		<div class="div-hero">
+			<img class="hero" src="img/hero.jpg" alt="photo chien et chat">
+			<p class="david">"Les Animaux sont nés <br>pour nous apprendre à aimer"<br><span> David Banville</span></p>
+			
+		</div>
+	</header>
+    <main>
+        <div class="presentation">
+            <img src="img/paw_2.png" class="paw_2" alt="icone patte">
+        
+        <section class="mo">
+            <img src="img/mo.jpg" alt="Morgane">
+            <div class="text_mo">
+                <h2>Morgane</h2>
+                <p>
+                    Développeuse web freelance de 30 ans, elle est l'heureuse maman de Biscino, Micros et Snoopy trois
+                     adorables chats qu'elle a sauvés en Grèce. Double championne d'Europe de Babyfoot, elle est toujours partante pour une partie
+                     endiablée entre deux lignes de code !
+                </p>
+            </div>
+        </section>
+        
+        <img src="img/cat.png" class="deco_cat" alt="PNG chat">
+        
+        <section class="sal">
+        
+            <img src="img/sa.jpg" alt="Salomé">
+            <div class="text_sal">
+                <h2>Salomé</h2>
+                <p>
+                    Responsable en marketing digital et propriétaire de Ryuk un adorable husky de 9 mois, son visage vous semble peut-être familier : en effet,
+                    Salomé a participé a diverses emissions télévisées comme Koh Lanta et Les Princes de l'amour, sans oublier les Marseillais.  
+                    Mais sa priorité reste bien évidemment la protection animale, cause pour laquelle elle est très engagée !
+                </p>
+            </div>
+        </section>
+
+        <img src="img/dog.png" class="deco_dog" alt="PNG chien">
+
+        <section class="raph">
+
+            <img src="img/ra.jpg" alt="Raphaël">
+            <div class="text_raph">
+                <h2>Raphaël</h2>
+                <p>Très concerné par la cause animale, il prend soin d'une colonie de chats errants aux alentours de son domicile dans la campagne bretonne, en plus de 
+                    son propre chat Sonic.
+                    <em>Let's go comme on dit dans le grand milieu ! </em>
+                </p>
+            </div>   
+        </section>
+
+        <img src="img/paw.png" class="paw" alt="icone patte">
+        <section class="tim">
+            <img src="img/ti.jpg" alt="Timothée">
+            <div class="text_tim">
+                <h2>Timothée</h2>
+                <p> Écrivaine de renom au succès international Timothée prend toujours le temps de se consacrer à cette cause qui lui tient tant à coeur, le bien-être 
+                    animal. Toujours avec la petite Pingu à ses côtés, sa fidèle compagne depuis 15 ans !
+                </p>
+            </div>
+        </section>
+        </div>
+    </main>
+
+<!-- Footer-->
+<footer>
+    <div class="footer-nav">
+    <img class="Logo-entreprise" src="img/logo.png" alt="Logo de la star-up" title="Pet Adopt">
+        <h2>Nous Contacter :</h2>
+        <div class="from">
+            <label for="name"><span>Nom :</span></label><br>
+            <input type="text" id="name" name="user_name" placeholder="Votre Nom :"><br>
+            <label for="mail"><span>Adresse E-mail :</span></label><br>
+            <input type="email" id="mail" name="user_email" placeholder="Votre adresse E-mail :"><br>
+            <label for="departement">De quel département venez-vous ?</label><br>
+            <select name="France" id="departement">
+                <option value="ille-et-vilaine">Ille-et-Vilaine</option>
+                <option value="cotes d'armor">Côtes-d'Armor</option>
+                <option value="morbihan">Morbihan</option>
+                <option value="finistère">Finistère</option>
+            </select><br>
+            <label for="msg"><span>Message :</span></label><br>
+            <textarea id="msg" name="user_message" placeholder="Votre message :"></textarea><br>
+            <button type="submit">Poster le message</button>
+        </div>
+        <div class="row1">
+            <ul class="social-links">
+                <li><a href="#">Google Play App</a></li> 
+                <li><a href="#">IOS App</a></li>
+                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="row2">
+            <ul class="Informations">
+                <li><i class="ion-location"></i>Avenue du Château Hébert, 35800 Dinard</li>
+                <li><i class="ion-ios-telephone"></i><a href="tel:+33699149716">+33 6 99 14 97 16</a></li>
+                <li><i class="ion-ios-email"></i><a href="mailto:PetAdopt@gmail.com">PetAdopt@gmail.com</a></li>
+            </ul>
+         </div>
+        <div class="Copyright">
+            <p>
+                Copyright &copy; 2021 by Pet Adopt. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
