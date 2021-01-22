@@ -347,11 +347,9 @@ input[type=submit]:active{
 
 
 .texte_valeurs{
-  margin-top: 10rem;
   margin-bottom:10rem;
 	margin-left: 15rem;
   width: 50rem;
-  margin-bottom:150px;
 
 }
 
@@ -362,6 +360,13 @@ input[type=submit]:active{
 
 .rejoignez-nous{
   font-size:150%;
+}
+
+.deco_valeurs{
+  display:flex;
+  width:20%;
+  padding-left:40px;
+  padding-top:100px;
 }
 
 
