@@ -471,7 +471,7 @@ footer button{
 .social-links li a:hover,
 .social-links li a:active {
   text-decoration: none;
-  border: 0;
+  border: 0; 
   color: #000;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
