@@ -337,75 +337,90 @@ input[type=submit]:active{
 }
 
 /*******************FOOTER***************/
-
-
 footer {
   padding: 20px;
   background-color: #F29898;
   color: #fff;
-  font-size: 90%;
-  
-}
-.Logo-entreprise {
-  
-  border-radius: 12px;
-  background-color: #FFFFFF;
-  opacity: 80%;
-  height: 8rem;
-
+  margin-top: 10rem;
 }
 .footer-nav {
   margin: 0;
   padding: 0;
 }
-footer h2{
-  margin-left: 370px;
-  margin-bottom:15px;
+footer h2 {
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 1.5rem;
 }
-
-
-.from{
+.from {
   display: inline-block;
   width: 20rem;
-  margin-left: 10rem;
+  margin-left: 17rem;
 }
-label{
-    line-height: 30px;
+footer label{
+   line-height: normal; 
+   font-size: 95%;
 }
-.from input{
+footer input {
   border-radius: 12px;
   border: none;
-  margin-left:0;
+  margin-left: -1rem;
+  margin-bottom: 0.2rem;
 }
-.from select {
+footer select {
   border-radius: 12px;
   border: none;
-  margin-left:0;
+  margin-left: -1rem;
+  margin-bottom: 0.2rem;
 }
-textarea {
+footer textarea {
   border-radius: 12px;
   border: none;
+  margin-left: -1rem;
+  width: 15rem;
 }
-
+footer button{
+    margin-left: 2.5rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    margin-top: 0.3rem;
+}
 .row1 {
   float: left;
 }
-.row2 {
-  float: right;
+.row1 li{
+    line-height: 170%;
 }
-li {
+.row2_ind {
+  float: right;
+  margin-top:-13rem;
+}
+.row2_pres ul{
+  margin-top:-180px;
+}
+.row2 span{
+    margin-left: 2rem;
+}
+.row2_ind i{
+    margin-right:1rem;
+}
+.row2_pres i{
+  margin-right:1rem;
+}
+.row2 li {
   list-style: none;
+  line-height:180% ;
 }
 .Informations {
   float: right;
   padding: 20px;
   list-style: none;
-  font-size: 200%;
+  font-size:130% ;
 }
 .social-links {
   list-style: none;
   float: left;
-  font-size: 200%;
+  font-size: 130%;
 }
 .Informations li a:link,
 .Informations li a:visited,
@@ -442,7 +457,10 @@ li {
   color: #C9BC04;
 }
 .Copyright {
-  text-align: center;
-  margin-top: 20px;
+  float: right;
   font-size: 15px;
 }
+
+
+
+
