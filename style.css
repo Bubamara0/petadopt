@@ -336,6 +336,36 @@ input[type=submit]:active{
     font-size:19px;
 }
 
+/*******************VALEURS***************/
+
+.texte_valeurs h2{
+  font-size:400%;
+  color:#F29898;
+  margin-bottom:40px;
+ 
+}
+
+
+.texte_valeurs{
+  margin-top: 10rem;
+  margin-bottom:10rem;
+	margin-left: 15rem;
+  width: 50rem;
+  margin-bottom:150px;
+
+}
+
+.texte_valeurs p{
+	font-size: 1.2rem;
+	line-height: 190%;
+}
+
+.rejoignez-nous{
+  font-size:150%;
+}
+
+
+
 /*******************FOOTER***************/
 footer {
   padding: 20px;
