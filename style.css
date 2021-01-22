@@ -363,7 +363,6 @@ input[type=submit]:active{
 }
 
 .deco_valeurs{
-  display:flex;
   width:20%;
   padding-left:40px;
   padding-top:100px;
