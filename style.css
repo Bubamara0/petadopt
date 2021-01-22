@@ -33,7 +33,7 @@ html{
 
 .menu{
 	list-style: none;
-	float: right;
+	float: right; 
 	margin-top: 1rem;
 	margin-right: 10rem ;
 	position:fixed;
